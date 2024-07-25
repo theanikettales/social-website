@@ -55,6 +55,7 @@
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
  }
  
  .banner-text{
@@ -243,8 +244,8 @@
     padding: 120px var(--padding-inline-section) 80px;
     background-color: #183b54;
 }
-.cta-section-container p h2{
-    color: white;
+.cta-section-container p {
+    color: white ;
     margin-top: 20px;
 }
 .footer{
