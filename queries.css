@@ -80,8 +80,9 @@
         /* align-items: flex-start; in CSS */
         align-items: stretch;
     }
+    
 }
-@media screen and(max-width: 479px) {
+@media screen and (max-width: 479px) {
     :root{
         --padding-inline-section: 10px
     }
@@ -93,25 +94,18 @@
         font-size: 1.5rem;
     }
     h3{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     } 
     p{
         font-size: 1rem;
     }   
-     
-    .features-card {
+    .features-area{
         display: flex;
-        min-width: 100%;
-        flex-direction: column;
-        
-    
-    }
-    .example-card{
-        display: flex;
-       width: 100%;
         flex-direction: column;
     }
-
-
-
+    .example-area{
+        display: flex;
+        flex-direction: column;
+    }
+       
 }    
