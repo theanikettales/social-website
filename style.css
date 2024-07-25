@@ -72,6 +72,7 @@
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
     
 
@@ -177,8 +178,7 @@
     gap: 20px;
 
 }
-
-.feature-header:{
+.feature-header{
     text-align: center;
     margin-bottom: 40px;
 }
@@ -256,6 +256,7 @@
 .cta-section-container{
     flex-direction: column;
     gap: 30px;
+    text-align: center;
 }
 .cta-section{
     padding: 120px var(--padding-inline-section) 80px;
