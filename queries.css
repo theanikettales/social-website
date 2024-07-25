@@ -1,0 +1,92 @@
+@media screen and (max-width: 991px){
+    h3{
+        /* font-size: 1.5rem; in style.CSS */
+        font-size: 1.2rem;
+     }
+
+    .nav-toggle{
+        /* display: none: in style.CSS */
+        display: block;
+        margin-right: 20px ;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .example-area{
+        gap: 20px;
+        
+    }
+
+    .example-card{
+        /* width: 25%; in style.CSS */
+        width: calc(50% - 10px);
+        /* height: 300px in style.css */
+        height: 180px;
+    }
+
+    .cta-section{
+        /* padding: 120px var(--padding-inline-section) 80px; */
+        padding-block: 80px;
+    }
+}
+@media screen and (max-width: 767px){
+    .second-btn{
+        width: 100%;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .head-left {
+        /* max-width: 40vw; in CSS */
+        max-width: 100vw;
+        text-align: center;
+    }
+    .features-card{
+        /* max-width: 30%; in CSS */
+        min-width: calc(50% - 10px);
+    }
+    .big-feature-container, #second-big-feature{
+        flex-direction: column;
+    }
+    #second-big-feature{
+        /* flex-direction: row; in CSS */
+        flex-direction: column-reverse;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        /* align-items: flex-start; in CSS */
+        align-items: center;
+    }
+    .link-column{
+        /* align-items: flex-start; in CSS */
+        align-items: stretch;
+    }
+}
+@media screen and(max-width: 479px) {
+    :root{
+        --padding-inline-section: 10px
+    }
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    } 
+    p{
+        font-size: 1rem;
+    }   
+     
+    .features-card{
+       min-width: 100%;
+    }
+    
+
+}    

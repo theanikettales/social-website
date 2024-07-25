@@ -91,6 +91,9 @@
     gap: 30px;
 
 }
+.nav-toggle{
+    display: none;
+}
 
 .nav-links{
     flex-basis: 720px;
@@ -112,7 +115,8 @@
     font-weight: 700px;
     color: var(--primary-text-color) !important;
     padding: 12px 24px;
-}
+ }
+    
  .first-btn:hover{
     background-color: var(--secondary-text-color-dark);
     border-color: var(--accent-color-dark);
@@ -124,6 +128,7 @@
     font-weight: 700px;
     color: white !important;
     padding: 12px 24px;
+    text-align: center;
  }
  .second-btn:hover{
     background-color: var(--accent-color-dark);
@@ -154,7 +159,7 @@
     margin-top: 20px;
 }
 .head-right img { 
-    width: 600px;
+    width: 100%;
 }
 
 .company-header{
@@ -164,17 +169,18 @@
 }
 
 .logo{
-   
-    width: 150px;
+    width: 140px;
 }
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 
 }
 
-.feature-header, .example-header{
+.feature-header:{
     text-align: center;
+    margin-bottom: 40px;
 }
 .feature-header h2 {
     margin-bottom: 20px;
@@ -189,7 +195,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-    gap: 40px;
+    gap: 20px;
 
 }
 .features-card{
@@ -205,6 +211,9 @@
 .big-feature-container{
     gap: 30px;
 }
+#second-big-feature{
+    flex-direction: row;
+}
 .feature-img img{
     width: 100%;
 }
@@ -212,18 +221,26 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.example-section{
+    padding: 80px var(--padding-inline-section);
+}
 .example-header{
+    text-align: center;
     flex-direction: column;
     gap: 20px;
+    text-align: center;
+    
 }
 .example-area{
     justify-content: space-between;
     margin-block: 30px;
+    flex-wrap: wrap;
+    
 }
 .example-card{
-    width: 25%;
+    width: 24%;
     position: relative;
-    min-height: 300px;
+    height: 300px;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 27.jpeg);
 
@@ -268,4 +285,6 @@
 .subfooter-container{
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
+
