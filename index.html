@@ -32,7 +32,7 @@
                    <li><a href="#" class="hover-links second-btn">Sign up</a></li>   
                </ul>
             </div>
-            <a href="#" class="nav-toggle hover-link" id="menu-toggle">
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
                 <i class="fa-solid fa-bars"></i>
             </a>
         </div>
@@ -241,7 +241,14 @@
         </div>
         
     </div>
-    <script src="script.js"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle')
+        const navlinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+           navLinks.classList.toggle('active');
+        })
+    </script>
     <script src="https://kit.fontawesome.com/eeaea1cb79.js" crossorigin="anonymous"></script>
 </body>
 </html>

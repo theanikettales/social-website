@@ -99,11 +99,17 @@
         font-size: 1rem;
     }   
      
-    .features-card{
-        min-width: 100%
+    .features-card {
+        display: flex;
+        min-width: 100%;
+        flex-direction: column;
+        
+    
     }
     .example-card{
-        width: 100%;
+        display: flex;
+       width: 100%;
+        flex-direction: column;
     }
 
 
